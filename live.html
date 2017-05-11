@@ -1,0 +1,19 @@
+---
+title: Live – RAW Poets
+layout: page
+---
+
+<ul class="page__live">
+  {% for post in site.posts %}
+    <a class="live__link" href="{{ post.url | relative_url }}">
+      <li class="live__post">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <span class="live__category">{{ post.categories }}</span>
+        <h2 class="live__title">
+          {{ post.title | escape }} {% if post.showdate %}<span class="live__title--subtitle"> / {{ post.showdate }} / {{ post.showtime }} / @ {{ post.showvenue }} </span>{% endif %}
+        </h2>
+        <span class="live__date">{{ post.date | date: "%B %-d %Y" }}</span>
+      </li>
+    </a>
+  {% endfor %}
+</ul>

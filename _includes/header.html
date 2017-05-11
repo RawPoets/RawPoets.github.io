@@ -1,0 +1,12 @@
+<header class="header" role="banner">
+
+    {% assign default_paths = site.pages | map: "path" %}
+    {% assign page_paths = site.header_pages | default: default_paths %}
+    <a class="header__logo" href="{{ "/" | relative_url }}">{% include logo.html %}</a>
+    <nav class="header__nav">
+      <a class="nav__link" href="/live">live</a>
+      <a class="nav__link" href="https://www.youtube.com/channel/UC9SIPxm2M5pXWoWRjjqZoBA" target="_blank">media</a>
+      <a class="nav__link" href="/rawlove">raw love</a>
+    </nav>
+  
+</header>

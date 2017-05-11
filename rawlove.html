@@ -1,0 +1,15 @@
+---
+title: RAW Love – RAW Poets
+layout: page
+---
+
+<div class="page__rawlove">
+  <h1 class="post__title">RAW Love</h1><br>
+  <ul class="mixtape__list">
+    {% for mixtape in site.data.rawlove %}
+      <li class="mixtape__embed">
+        {{ mixtape.embed }}
+      </li>
+    {% endfor %}  
+  </ul>
+</div>

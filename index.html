@@ -1,0 +1,36 @@
+---
+title: RAW Poets
+layout: home
+---
+
+{% for section in site.home-sections%}
+  {% if section.link %}
+    <a class="section__link" href="{{ section.link }}">
+      <div class="home__section" style="background-image: url('{{ section.background }}')">
+        <div class="wrapper">
+            {% if section.title %}
+              <h1 class="section__title" style="color: {{ section.fontcolor }}">{{ section.title }}</h1>
+            {% endif %}
+            {% if section.embed %}
+            <div class="section__embed">
+              {{ section.embed }}
+            </div>
+            {% endif %}
+        </div>
+      </div>
+    </a>
+  {% else %}
+    <div class="home__section" style="background-image: url('{{ section.background }}')">
+      <div class="wrapper">
+          {% if section.title %}
+            <h1 class="section__title" style="color: {{ section.fontcolor }}">{{ section.title }}</h1>
+          {% endif %}
+          {% if section.embed %}
+          <div class="section__embed">
+              {{ section.embed }}
+          </div>
+          {% endif %}
+      </div>
+    </div>  
+  {% endif %}
+{% endfor %}

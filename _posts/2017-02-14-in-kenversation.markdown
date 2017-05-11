@@ -1,8 +1,9 @@
 ---
 layout: post
-title:  "In Kenversation w/ Barbie Podcast"
-date:   2017-02-14
+title: In Kenversation w/ Barbie Podcast
+date: '2017-02-14'
 categories: interview
+permalink: "/in-kenversation/"
 ---
 
 

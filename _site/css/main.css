@@ -14,7 +14,8 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  min-height: 100vh; }
+  min-height: 100vh;
+  overflow-x: hidden; }
 
 .wrapper {
   width: 1250px;
@@ -194,7 +195,11 @@ h2 {
   height: 500px; }
   .section__embed iframe {
     min-width: 100%;
+    width: 100%;
     height: 400px; }
+    @media screen and (max-width: 640px) {
+      .section__embed iframe {
+        width: 100%; } }
 
 .page__live {
   margin: 200px auto 100px auto;

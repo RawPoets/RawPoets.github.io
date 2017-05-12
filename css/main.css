@@ -201,7 +201,7 @@ h2 {
     @media screen and (max-width: 640px) {
       .section__embed iframe {
         width: auto;
-        height: auto; } }
+        height: 200px; } }
 
 .page__live {
   margin: 200px auto 100px auto;

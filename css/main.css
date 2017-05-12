@@ -256,6 +256,9 @@ h2 {
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #E8DAC6; }
+  @media screen and (max-width: 640px) {
+    .live__title {
+      font-size: 1.6em; } }
   .live__title--subtitle {
     color: #555; }
 

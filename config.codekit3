@@ -232,7 +232,7 @@
 		"oA": 0,
 		"oAP": "\/css\/main.css",
 		"oF": 1,
-		"oS": 0,
+		"oS": 3,
 		"uL": 1
 		},
 	"\/_sass\/views\/footer.sass": {
@@ -695,6 +695,16 @@
 		"oAP": "\/_site\/assets\/javascript\/index.js.map",
 		"oF": 0
 		},
+	"\/_site\/assets\/main-min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/assets\/main-min-min.css",
+		"oF": 0,
+		"oS": 0
+		},
 	"\/_site\/assets\/main.css": {
 		"aP": 1,
 		"bl": 0,
@@ -740,6 +750,16 @@
 		"oA": 2,
 		"oAP": "\/_site\/crossdomain.xml",
 		"oF": 0
+		},
+	"\/_site\/css\/main.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/_site\/css\/main-min.css",
+		"oF": 0,
+		"oS": 0
 		},
 	"\/_site\/feed.xml": {
 		"ft": 8192,
@@ -837,30 +857,6 @@
 		"ft": 8192,
 		"oA": 2,
 		"oAP": "\/assets\/images\/favicon.ico",
-		"oF": 0
-		},
-	"\/assets\/images\/favicon.ico~HEAD": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/favicon.ico~HEAD",
-		"oF": 0
-		},
-	"\/assets\/images\/favicon.ico~HEAD_0": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/favicon.ico~HEAD_0",
-		"oF": 0
-		},
-	"\/assets\/images\/favicon.ico~Initial Commit for Forestry Integration": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/favicon.ico~Initial Commit for Forestry Integration",
-		"oF": 0
-		},
-	"\/assets\/images\/favicon.ico~origin_master": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/favicon.ico~origin_master",
 		"oF": 0
 		},
 	"\/assets\/images\/favicon\/android-chrome-192x192.png": {
@@ -1030,30 +1026,6 @@
 		"opt": 0,
 		"q": 100
 		},
-	"\/assets\/images\/Raw99Flyer.jpg~HEAD": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/Raw99Flyer.jpg~HEAD",
-		"oF": 0
-		},
-	"\/assets\/images\/Raw99Flyer.jpg~HEAD_0": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/Raw99Flyer.jpg~HEAD_0",
-		"oF": 0
-		},
-	"\/assets\/images\/Raw99Flyer.jpg~Initial Commit for Forestry Integration": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/Raw99Flyer.jpg~Initial Commit for Forestry Integration",
-		"oF": 0
-		},
-	"\/assets\/images\/Raw99Flyer.jpg~origin_master": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/Raw99Flyer.jpg~origin_master",
-		"oF": 0
-		},
 	"\/assets\/images\/RAWLogo.png": {
 		"ft": 32768,
 		"iS": 7275,
@@ -1064,30 +1036,6 @@
 		"opt": 0,
 		"oT": 1,
 		"q": 100
-		},
-	"\/assets\/images\/RAWLogo.png~HEAD": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/RAWLogo.png~HEAD",
-		"oF": 0
-		},
-	"\/assets\/images\/RAWLogo.png~HEAD_0": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/RAWLogo.png~HEAD_0",
-		"oF": 0
-		},
-	"\/assets\/images\/RAWLogo.png~Initial Commit for Forestry Integration": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/RAWLogo.png~Initial Commit for Forestry Integration",
-		"oF": 0
-		},
-	"\/assets\/images\/RAWLogo.png~origin_master": {
-		"ft": 8192,
-		"oA": 2,
-		"oAP": "\/assets\/images\/RAWLogo.png~origin_master",
-		"oF": 0
 		},
 	"\/assets\/images\/rawlove3.jpg": {
 		"ft": 16384,
@@ -1134,16 +1082,6 @@
 		"iS": 245858,
 		"oA": 0,
 		"oAP": "\/assets\/images\/rawlove5.jpg",
-		"oF": 0,
-		"oIPL": 0,
-		"opt": 0,
-		"q": 100
-		},
-	"\/assets\/images\/rawlove6.jpg": {
-		"ft": 16384,
-		"iS": 929316,
-		"oA": 0,
-		"oAP": "\/assets\/images\/rawlove6.jpg",
 		"oF": 0,
 		"oIPL": 0,
 		"opt": 0,

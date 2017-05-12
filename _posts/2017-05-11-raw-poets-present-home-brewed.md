@@ -25,7 +25,7 @@ Please drink and #FeelResponsibly
 
 *while the event is free, the food and beer will be for sale
 
-### RSVP with the button below
+### RSVP below
 
 <a href="https://www.eventbrite.com/e/raw-poets-present-home-brewed-tickets-34522820686?ref=ebtn" target="_blank">
 </a>

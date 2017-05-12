@@ -175,6 +175,9 @@ h2 {
     background-size: cover;
     background-position: center center;
     padding: 20px; }
+    @media screen and (max-width: 640px) {
+      .home__section {
+        padding-top: 100px; } }
 
 .section__link {
   text-decoration: none; }
@@ -201,7 +204,7 @@ h2 {
     @media screen and (max-width: 640px) {
       .section__embed iframe {
         width: auto;
-        height: 200px; } }
+        height: 300px; } }
 
 .page__live {
   margin: 200px auto 100px auto;

@@ -5,7 +5,7 @@ date: '2017-05-11T19:27:13+00:00'
 showtime: 2pm
 showdate: June 4th, 2017
 showvenue: The Bronx Brewery
-image: "/uploads/2017/05/11/Home Brewed-1.jpg"
+image: "/uploads/2017/05/12/Home-Brewed-Revised.jpg"
 permalink: "/home-brewed/"
 layout: post
 ---

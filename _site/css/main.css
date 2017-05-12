@@ -126,15 +126,17 @@ h2 {
     display: table;
     clear: both; }
 
-.home__section {
-  width: 100%;
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
-  background-position: center center;
-  padding: 20px; }
+.home {
+  overflow-x: hidden; }
+  .home__section {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center center;
+    padding: 20px; }
 
 .section__link {
   text-decoration: none; }
@@ -223,7 +225,8 @@ h2 {
 .page__post {
   max-width: 900px;
   margin: 150px auto 100px auto;
-  color: #AAA; }
+  color: #AAA;
+  overflow-x: hidden; }
   @media screen and (max-width: 640px) {
     .page__post {
       margin-top: 200px; } }
@@ -263,7 +266,8 @@ h2 {
   max-width: 900px;
   margin: 150px auto 100px auto;
   color: #AAA;
-  text-align: center; }
+  text-align: center;
+  overflow-x: hidden; }
   @media screen and (max-width: 640px) {
     .page__rawlove {
       width: 90%;

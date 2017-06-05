@@ -13,7 +13,7 @@ layout: home
         <div class="wrapper">
             {% if section.title %}
                 <div class="section__title--{{ section.fontcolor }}">
-                    <h1>{% if section.category %}<span class="category">{{ section.category }}</span>{% endif %}{{ section.title }}</h1>
+                    <h1>{% if section.categories %}<span class="category">{{ section.categories }}</span>{% endif %}{{ section.title }}</h1>
                     {% if section.description %}
                     <p>{{ section.description }}</p>
                     {% endif %}
@@ -35,7 +35,7 @@ layout: home
       <div class="wrapper">
           {% if section.title %}
               <div class="section__title--{{ section.fontcolor }}">
-                  <h1>{% if section.category %}<span class="category">{{ section.category }}</span>{% endif %}{{ section.title }}</h1>
+                  <h1>{% if section.categories %}<span class="category">{{ section.categories }}</span>{% endif %}{{ section.title }}</h1>
                   {% if section.description %}
                   <p>{{ section.description }}</p>
                   {% endif %}

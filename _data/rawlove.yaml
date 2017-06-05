@@ -1,16 +1,19 @@
+---
 - name: RAW Love 6
-  cover: /assets/images/rawlove6.jpg
+  cover: "/assets/images/rawlove6.jpg"
   embed:
-    - <iframe src="https://www.audiomack.com/embed4-album/raw-poets/raw-love-6" scrolling="no" scrollbars="no" frameborder="0"></iframe>
+  - <iframe src="https://www.audiomack.com/embed4-album/raw-poets/raw-love-6" scrolling="no"
+    scrollbars="no" frameborder="0"></iframe>
 - name: RAW Love 5
-  cover: /assets/images/rawlove5.jpg
+  cover: "/assets/images/rawlove5.jpg"
   embed:
-    - <iframe src="http://www.audiomack.com/embed4-album/raw-poets/raw-love-5" scrolling="no" scrollbars="no" frameborder="0"></iframe>
+  - <iframe src="http://www.audiomack.com/embed4-album/raw-poets/raw-love-5" scrolling="no"
+    scrollbars="no" frameborder="0"></iframe>
 - name: RAW Love 4
-  cover: /assets/images/rawlove4.jpg
+  cover: "/assets/images/rawlove4.jpg"
   embed:
-    - <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/80875457&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+  - <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/80875457&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
 - name: RAW Love 3
-  cover: /assets/images/rawlove3.jpg
+  cover: "/assets/images/rawlove3.jpg"
   embed:
-    - <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23358089&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>
+  - <iframe scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/playlists/23358089&amp;color=ff5500&amp;auto_play=false&amp;hide_related=false&amp;show_comments=true&amp;show_user=true&amp;show_reposts=false"></iframe>

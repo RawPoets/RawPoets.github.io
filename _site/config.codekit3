@@ -95,9 +95,9 @@
 		"ema": 1,
 		"eSQ": 1,
 		"ft": 4096,
-		"oA": 1,
+		"oA": 0,
 		"oAP": "\/_home-sections\/welcome.html",
-		"oF": 1,
+		"oF": 0,
 		"oFM": 0,
 		"oS": 0,
 		"pHT": 0,
@@ -676,16 +676,6 @@
 		"oA": 2,
 		"oAP": "\/_site\/crossdomain.xml",
 		"oF": 0
-		},
-	"\/_site\/css\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/css\/main-min.css",
-		"oF": 0,
-		"oS": 0
 		},
 	"\/_site\/feed.xml": {
 		"ft": 8192,

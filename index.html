@@ -6,10 +6,18 @@ layout: home
 {% for section in site.home-sections%}
   {% if section.link %}
     <a class="section__link" href="{{ section.link }}">
-      <div class="home__section" style="background-image: url('{{ section.background }}')">
+      {% if section.background %}<div class="home__section" style="background-image: url('{{ section.background }}')">
+      {% else %}
+      <div class="home__section" style="background-color: {{ section.solid }}">
+      {% endif %}
         <div class="wrapper">
             {% if section.title %}
-              <h1 class="section__title" style="color: {{ section.fontcolor }}">{{ section.title }}</h1>
+                <div class="section__title--{{ section.fontcolor }}">
+                    <h1>{% if section.category %}<span class="category">{{ section.category }}</span>{% endif %}{{ section.title }}</h1>
+                    {% if section.description %}
+                    <p>{{ section.description }}</p>
+                    {% endif %}
+                </div>
             {% endif %}
             {% if section.embed %}
             <div class="section__embed">
@@ -20,10 +28,18 @@ layout: home
       </div>
     </a>
   {% else %}
-    <div class="home__section" style="background-image: url('{{ section.background }}')">
+    {% if section.background %}<div class="home__section" style="background-image: url('{{ section.background }}')">
+    {% else %}
+    <div class="home__section" style="background-color: {{ section.solid }}">
+    {% endif %}
       <div class="wrapper">
           {% if section.title %}
-            <h1 class="section__title" style="color: {{ section.fontcolor }}">{{ section.title }}</h1>
+              <div class="section__title--{{ section.fontcolor }}">
+                  <h1>{% if section.category %}<span class="category">{{ section.category }}</span>{% endif %}{{ section.title }}</h1>
+                  {% if section.description %}
+                  <p>{{ section.description }}</p>
+                  {% endif %}
+              </div>
           {% endif %}
           {% if section.embed %}
           <div class="section__embed">
@@ -31,6 +47,6 @@ layout: home
           </div>
           {% endif %}
       </div>
-    </div>  
+    </div>
   {% endif %}
 {% endfor %}

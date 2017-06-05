@@ -11,7 +11,7 @@ description: The RAW Poets, a poetry and art collective focuses on producing ori
 categories: About Us
 date: '2017-06-05T19:24:16.365+00:00'
 background: ''
-link: 'false'
+link: ''
 embed: ''
 layout: page
 subtitle: About Us

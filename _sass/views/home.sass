@@ -6,6 +6,7 @@
         display: flex
         background-size: cover
         background-position: center center
+        position: relative
         +padding
         +media-query($phone)
             padding-top: 100px
@@ -17,6 +18,11 @@
 .section
     &__link
         text-decoration: none
+        position: absolute
+        top: 0
+        right: 0
+        bottom: 0
+        left: 0
     &__title--light
         display: block
         width: 650px

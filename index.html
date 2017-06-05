@@ -4,46 +4,27 @@ layout: home
 ---
 
 {% for section in site.home-sections%}
-  {% if section.link %}
-    <a class="section__link" href="{{ section.link }}">
-      <div class="home__section" style="background-image: url('{{ section.background }}'); background-color: {{ section.solid }}">
+
+    <div class="home__section" style="background-image: url('{{ section.background }}'); background-color: {{ section.solid }}">
+        {% if section.link == blank %}
+        {% else %}
+            <a href="{{ section.link }}" class="section__link"></a>
+        {% endif %}
         <div class="wrapper">
-            {% if section.title %}
-                <div class="section__title--{{ section.fontcolor }}">
-                    <h1>{% if section.categories %}<span class="category">{{ section.categories }}</span>{% endif %}{{ section.title }}</h1>
-                    {% if section.description %}
-                    <p>{{ section.description }}</p>
-                    {% endif %}
-                </div>
-            {% endif %}
-            {% if section.embed %}
+            <div class="section__title--{{ section.fontcolor }}">
+                <h1>{% if section.subtitle %}<span class="category">{{ section.subtitle }}</span>{% endif %}{{ section.title }}</h1>
+                {% if section.description == blank %}
+                {% else %}
+                <p>{{ section.description }}</p>
+                {% endif %}
+            </div>
+            {% if section.embed == blank %}
+            {% else %}
             <div class="section__embed">
               {{ section.embed }}
             </div>
             {% endif %}
         </div>
-      </div>
-    </a>
-  {% else %}
-    {% if section.background %}<div class="home__section" style="background-image: url('{{ section.background }}')">
-    {% else %}
-    <div class="home__section" style="background-color: {{ section.solid }}">
-    {% endif %}
-      <div class="wrapper">
-          {% if section.title %}
-              <div class="section__title--{{ section.fontcolor }}">
-                  <h1>{% if section.categories %}<span class="category">{{ section.categories }}</span>{% endif %}{{ section.title }}</h1>
-                  {% if section.description %}
-                  <p>{{ section.description }}</p>
-                  {% endif %}
-              </div>
-          {% endif %}
-          {% if section.embed %}
-          <div class="section__embed">
-              {{ section.embed }}
-          </div>
-          {% endif %}
-      </div>
     </div>
-  {% endif %}
+
 {% endfor %}

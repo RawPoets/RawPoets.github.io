@@ -677,16 +677,6 @@
 		"oAP": "\/_site\/crossdomain.xml",
 		"oF": 0
 		},
-	"\/_site\/css\/main.css": {
-		"aP": 1,
-		"bl": 0,
-		"ft": 16,
-		"ma": 0,
-		"oA": 0,
-		"oAP": "\/_site\/css\/main-min.css",
-		"oF": 0,
-		"oS": 0
-		},
 	"\/_site\/feed.xml": {
 		"ft": 8192,
 		"oA": 2,

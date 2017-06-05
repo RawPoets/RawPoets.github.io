@@ -14,4 +14,5 @@ background: ''
 link: ''
 embed: ''
 layout: page
+subtitle: About Us
 ---

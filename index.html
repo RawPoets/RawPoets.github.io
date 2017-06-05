@@ -6,19 +6,19 @@ layout: home
 {% for section in site.home-sections%}
 
     <div class="home__section" style="background-image: url('{{ section.background }}'); background-color: {{ section.solid }}">
-        {% if section.link == blank %}
+        {% if section.link == '' %}
         {% else %}
             <a href="{{ section.link }}" class="section__link"></a>
         {% endif %}
         <div class="wrapper">
             <div class="section__title--{{ section.fontcolor }}">
                 <h1>{% if section.subtitle %}<span class="category">{{ section.subtitle }}</span>{% endif %}{{ section.title }}</h1>
-                {% if section.description == blank %}
+                {% if section.description == '' %}
                 {% else %}
                 <p>{{ section.description }}</p>
                 {% endif %}
             </div>
-            {% if section.embed == blank %}
+            {% if section.embed == '' %}
             {% else %}
             <div class="section__embed">
               {{ section.embed }}

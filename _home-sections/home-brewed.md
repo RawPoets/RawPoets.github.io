@@ -9,4 +9,5 @@ description: ''
 solid: ''
 embed: ''
 layout: page
+subtitle: Event Announcement
 ---

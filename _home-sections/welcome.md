@@ -2,7 +2,7 @@
 fontcolor: light
 title: The RAW Poets
 solid: "#222"
-description: The RAW Poets are a poetry and art collective focused on producing original
+description: The RAW Poets are an art and poetry collective focused on producing original
   content and media. Through spoken word, art, workshops, and live events, The RAW
   Poets re-imagine the distinction between artist and patron by creating art you can
   both interact with, and become a part of. Established in New York City in 2010,

@@ -13,7 +13,7 @@ layout: post
 
 ## An event brought to you by the good folks at RAW Poets, in conjunction with The Bronx Brewery (because we know you love a side of drink with your feels), we are proud to bring you Home Brewed, a crisp take on art, culture, and food.
 
-___
+–
 
 Come enjoy a day of **Food Truck Brunch...Food, Live Poetry and Performances, and Freshly Brewed Beer **at the Bronx Brewery with us. Best of all, entry is FREE! All we ask is that you RSVP, be on time, and bring a friend. And your feels. And your appetite.
 

@@ -13,5 +13,12 @@ text: white
 title: 'RAW Poets Present: Love Letters'
 type: Event Announcement
 ---
-
 # A night of poetry and open discussion on the idea of love
+
+<br>
+
+An exclusive live performance and discussion of the upcoming RAW Love 7 EP.
+
+Attendees will get to to hear the project in full– live, and then have a Q+A session with the poets to discuss the creative process and meaning behind each piece.
+
+This will be an intimate night of poetry, love, and lessons with the RAW Poets.

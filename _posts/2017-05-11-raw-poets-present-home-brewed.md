@@ -1,9 +1,9 @@
 ---
 background: home-brewed.jpg
 categories: event
-date: '2017-05-11T19:27:13+00:00'
+date: 2017-05-11 00:00:00 +0000
 home: true
-image: "Home-Brewed-Revised.jpg"
+image: Home-Brewed-Revised.jpg
 layout: detail
 permalink: "/home-brewed/"
 showdate: June 4th, 2017

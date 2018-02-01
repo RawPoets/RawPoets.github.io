@@ -1,9 +1,9 @@
 ---
 background: love-letters.jpg
 categories: event
-date: '2018-01-31'
+date: 2018-01-31 00:00:00 +0000
 home: true
-image: "loveletters flyer.jpg"
+image: loveletters flyer.jpg
 layout: detail
 permalink: "/love-letters/"
 showdate: February 10, 2018

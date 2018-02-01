@@ -1,0 +1,20 @@
+---
+layout: default
+title: Latest
+permalink: /latest/
+---
+<h1 class="latest__heading">Latest</h1>
+<ul class="latest__list">
+  {% for post in site.posts %}
+    <a class="latest__link" href="{{ post.url | relative_url }}">
+      <li class="latest__post">
+        {% assign date_format = site.minima.date_format | default: "%b %-d, %Y" %}
+        <p class="latest__category latest--small">{{ post.categories }}</p>
+        <h2 class="latest__title">
+          {{ post.title | escape }} {% if post.showdate %}<span class="latest__title--subtitle"> / {{ post.showdate }} / {{ post.showtime }} / @ {{ post.showvenue }} </span>{% endif %}
+        </h2>
+        <p class="latest__date latest--small">{{ post.date | date: "%B %-d %Y" }}</p>
+      </li>
+    </a>
+  {% endfor %}
+</ul>

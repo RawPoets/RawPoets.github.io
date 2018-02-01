@@ -1,0 +1,32 @@
+.site__header
+	border-bottom: solid 1px $c-gray
+	padding: ($spacing / 2) ($spacing * 2)
+	display: flex
+	flex-direction: row
+	justify-content: space-between
+	align-items: center
+
+	+media-query($m)
+		padding: ($spacing / 2) $spacing
+
+
+	&--title
+		margin: 0
+		display: block
+		width: 55px
+		position: relative
+		top: 3px
+		transform: scale(1)
+		transition: all 0.15s cubic-bezier(0.68, -0.55, 0.265, 1.55)
+
+		+fluid-type(20.16px, 23.04px)
+
+		&:hover
+			transform: scale(0.9)
+
+		a
+			color: black
+			border-bottom: none
+
+			&:hover
+				border-bottom: none

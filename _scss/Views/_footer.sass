@@ -1,0 +1,40 @@
+.site__footer
+	padding: ($spacing / 2) ($spacing * 2)
+	background-color: black
+	color: #CCC
+	display: flex
+	justify-content: space-between
+	align-items: center
+
+	+media-query($m)
+		padding: ($spacing / 2) $spacing
+
+
+	p
+		margin-bottom: 0
+
+		&:first-of-type
+			font-family: 'Teko', $base-font-family
+			text-transform: uppercase
+
+	+small-font-size
+
+	svg
+		width: 16px
+		margin-left: 1em
+		position: relative
+		top: 3px
+
+		path
+			fill: $c-orange
+
+	&--credits
+		float: right
+		letter-spacing: 1px
+		font-size: 10px
+
+		a
+			color: #f4aa5d
+
+			&:hover
+				color: white

@@ -1,0 +1,18 @@
+name: RAW Poets
+title: RAW Poets
+email: jeff@kubonyc.com
+description: > # this means to ignore newlines until "baseurl:"
+  The RAW Poets re-imagine the distinction between artist and patron by creating art you can become a part of. Through spoken word, art, workshops and live events, the Rebellious Assertive Writers have expanded their purpose to New York, Atlanta, Chicago, and the District of Columbia
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "http://www.rawpoets.com" # the base hostname & protocol for your site, e.g. http://example.com
+seo-image: '/assets/img/social-cover.jpg'
+markdown: redcarpet
+highlighter: pygments # or rouge or null
+exclude: ["node_modules", "gulpfile.js", "package.json"]
+
+collections_dir: collections
+
+collections:
+  panel:
+    output: true
+    permalink: /:title/

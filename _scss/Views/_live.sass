@@ -1,0 +1,43 @@
+.latest
+	&__heading
+		padding: $spacing ($spacing * 2)
+		margin: 0
+		color: $c-tan
+		background-color: black
+		width: 100%
+		letter-spacing: 1px
+
+	&__list
+		list-style: none
+		padding: 0
+		margin: 0
+
+	&__link
+		display: block
+		padding: $spacing * 2
+		border-bottom: solid 1px $c-gray
+
+		&:hover
+			background-color: black
+
+			.latest__title
+				color: white
+
+	&__post
+		display: flex
+		align-items: center
+		justify-content: space-between
+
+		+media-query($m)
+			flex-direction: column
+
+	&__title
+		margin: 0 $spacing
+
+		+media-query($m)
+			text-align: center
+			margin-bottom: $spacing / 2
+
+	&--small
+		font-size: 12px
+		text-transform: uppercase

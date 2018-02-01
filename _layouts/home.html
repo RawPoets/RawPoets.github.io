@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+<div class="home">
+	<div class="panels">
+		<div class="panel panel--static">
+			<h1>
+				The RAW Poets re-imagine the distinction between artist and patron by creating art you can become a part of. Through spoken word, visual arts, workshops and live events, the Rebellious Assertive Writers have expanded their purpose to New York, Atlanta, Chicago, and the District of Columbia
+			</h1>
+		</div>
+		{% for post in site.posts %}
+			{% if post.home == true %}
+			<a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}" class="panel__link">
+				<div class="panel" style="background-image: url(/assets/img/{{ post.background }})">
+					<div class="panel__meta">
+						<h1 style="color: {{ post.text }};">{{ post.title }}</h1>
+						<p style="color: {{ post.text }}; opacity: 0.5;"">{{ post.type }}</p>
+					</div>
+					<div class="panel__hover"></div>
+				</div>
+			</a>
+			{% endif %}
+		{% endfor %}
+	</div>
+	{% include newsletter.html %}
+</div>

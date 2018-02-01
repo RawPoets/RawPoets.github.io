@@ -1,0 +1,44 @@
+html
+	height: 100%
+	background-color: $c-bg
+
+body
+	height: 100%
+
+	+clearfix
+
+.site__body
+	margin: 0
+
+.page__title,
+.post__title
+	+full
+
+.dark
+	background-color: black
+
+	h1, h2, h3, h4, h5
+		color: white
+
+	p
+		color: #CCC
+
+	.site__body
+		background-color: black
+
+	.site__footer
+		background-color: black
+		border-top: solid 1px #555
+
+	.site__header
+		border-bottom: solid 1px #555
+
+	.site__header--title
+		.cls-2
+			fill: #FFF
+
+	.navigation__link
+		color: white
+
+		&:hover
+			border-bottom-color: white

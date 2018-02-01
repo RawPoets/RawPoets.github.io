@@ -1,0 +1,101 @@
+.home
+  margin: 0 auto
+
+.panels
+  width: 100%
+  display: flex
+  flex-wrap: wrap
+  justify-content: justify-between
+  +media-query($m)
+  	flex-direction: column
+
+
+.panel
+	display: block
+	width: 100%
+	padding: $spacing*2
+	display: flex
+	align-items: center
+	justify-content: center
+	height: 60vh
+	overflow: hidden
+	flex-direction: column
+	background-size: cover
+	background-position: center
+	position: relative
+	&--static
+		width: 50%
+		padding: $spacing*2 $spacing*3 $spacing*2 $spacing*2
+		+media-query($m)
+			width: 100%
+			padding: $spacing
+	&__link
+		display: block
+		width: 50%
+		border-bottom: none
+		+media-query($m)
+			width: 100%
+		&:hover
+			border-bottom: none
+			.panel__meta
+				h1
+					color: white !important
+				p
+					color: white !important
+			.panel__hover
+				opacity: 0.95
+	&__meta
+		position: absolute
+		bottom: $spacing*2
+		left: $spacing*2
+		z-index: 2
+		+media-query($m)
+			bottom: $spacing
+			left: $spacing
+	&__hover
+		display: block
+		position: absolute
+		top: 0
+		right: 0
+		bottom: 0
+		left: 0
+		z-index: 1
+		background-color: black
+		opacity: 0
+		transition: all .2s ease
+	h1, p
+		margin: 0
+		text-align: left
+		transition: all .2s ease
+
+.newsletter
+	background-color: black
+	color: white
+	margin: 0
+	display: flex
+	align-items: center
+	background-image: url("/assets/img/newsletter2.png")
+	background-repeat: repeat
+	+media-query($m)
+		flex-direction: column
+	h1
+		width: 50%
+		padding: $spacing*2
+		margin: 0
+		color: white
+		+media-query($m)
+			width: 100%
+			padding: $spacing $spacing 0 $spacing
+			text-align: center
+	&__form
+		display: flex
+		width: 50%
+		padding: 0 $spacing*2
+		+media-query($m)
+			width: 100%
+			padding: $spacing
+		input[type="email"]
+			flex: 1 1 auto
+			font-size: 16px
+			padding: $spacing/2 $spacing
+			margin-bottom: 0

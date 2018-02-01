@@ -1,0 +1,47 @@
+---
+pages:
+- _posts/2017-05-11-raw-poets-present-home-brewed.md
+hide_body: false
+fields:
+- type: text
+  label: Event Time
+  name: showtime
+  description: Time of the event
+  config:
+    required: true
+- type: text
+  label: Event Date
+  name: showdate
+  description: Date of the event
+  config:
+    required: true
+- name: showvenue
+  type: text
+  label: Event Venue
+  description: Venue for the event
+  config:
+    required: true
+- name: image
+  type: file
+  label: Flyer
+  config:
+    required: false
+- name: categories
+  type: text
+  label: Category
+  hidden: true
+  default: event
+- name: permalink
+  type: text
+  label: Permalink
+  description: 'Used to make the URL of the post look nicer. Must start and end with
+    a "/"... For example: /raw-99/'
+  config:
+    required: true
+- name: layout
+  type: text
+  label: Layout
+  hidden: true
+  default: post
+  config:
+    required: true

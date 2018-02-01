@@ -1,7 +1,7 @@
 ---
 title: 'RAW Poets present: Home Brewed'
 categories: event
-date: '2017-05-11T19:27:13+00:00'
+date: 2017-05-11 19:27:13 +0000
 showtime: 2pm
 showdate: June 4th, 2017
 showvenue: The Bronx Brewery

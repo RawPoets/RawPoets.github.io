@@ -9,10 +9,3 @@ seo-image: '/assets/img/social-cover.jpg'
 markdown: redcarpet
 highlighter: pygments # or rouge or null
 exclude: ["node_modules", "gulpfile.js", "package.json"]
-
-collections_dir: collections
-
-collections:
-  panel:
-    output: true
-    permalink: /:title/

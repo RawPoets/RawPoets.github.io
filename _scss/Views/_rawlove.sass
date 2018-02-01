@@ -4,7 +4,10 @@
 	background-position: center
 	background-attachment: fixed
 	position: relative
-	overflow-x: hidden
+
+	+media-query($m)
+		padding: ($spacing * 2) 0
+
 
 	.overlay
 		display: block

@@ -59,11 +59,9 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: background
+- type: file
   label: Background
-  type: text
-  hidden: false
-  default: ''
+  name: background
 - name: home
   label: Home
   type: boolean

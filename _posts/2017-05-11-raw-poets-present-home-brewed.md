@@ -1,5 +1,5 @@
 ---
-background: home-brewed.jpg
+background: /assets/img/home-brewed.jpg
 categories: event
 date: 2017-05-11 00:00:00 +0000
 home: true

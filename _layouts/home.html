@@ -12,7 +12,7 @@ layout: default
 		{% for post in site.posts %}
 			{% if post.home == true %}
 			<a href="{% if post.link %}{{ post.link }}{% else %}{{ post.url }}{% endif %}" class="panel__link">
-				<div class="panel" style="background-image: url(/assets/img/{{ post.background }})">
+				<div class="panel" style="background-image: url({{ post.background }})">
 					<div class="panel__meta">
 						<h1 style="color: {{ post.text }};">{{ post.title }}</h1>
 						<p style="color: {{ post.text }}; opacity: 0.5;"">{{ post.type }}</p>

@@ -1,5 +1,5 @@
 ---
-background: /assets/img/love-letters.jpg
+background: "/assets/img/love-letters.jpg"
 categories: event
 date: 2018-01-31 00:00:00 +0000
 home: true

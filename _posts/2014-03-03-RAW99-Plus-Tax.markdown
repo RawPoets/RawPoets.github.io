@@ -5,7 +5,7 @@ title: RAW.99 Plus Tax
 showdate: April 23rd 2016
 showtime: 6-10pm
 showvenue: Littlefield
-image: /assets/img/Raw99Flyer.jpg
+image: "/assets/img/Raw99Flyer.jpg"
 categories: event
 permalink: "/raw-99/"
 type: Latest
